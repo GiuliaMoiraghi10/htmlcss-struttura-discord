@@ -61,6 +61,23 @@ a{
     border-style: dashed;
 }
 
+.debug .container{
+    border-style: dashed;
+    border: 1px;
+}
+
+.debug .row{
+    border: 1px;
+    border-style: dashed;
+    padding: 20px;
+}
+
+.debug .row>*{
+    border: 1px;
+    border-style: dashed;
+    padding: 20px;
+}
+
 /* MAIN */
 .top{
     background-color: rgb(9, 9, 158);
@@ -77,4 +94,6 @@ a{
     height: 250px;
 	margin: 0 auto;
 }
+
+
 
