@@ -55,3 +55,26 @@ a{
     border: 1px;
     border-style: dashed;
 }
+
+.img-top{
+    border: 1px;
+    border-style: dashed;
+}
+
+/* MAIN */
+.top{
+    background-color: rgb(9, 9, 158);
+    height: 300px;
+    padding: 0 20px;
+    display: flex;
+}
+
+.img-top{
+    align-self: center;
+    justify-content: center;
+    background-color: rgb(219, 92, 198);
+    width: 450px;
+    height: 250px;
+	margin: 0 auto;
+}
+
