@@ -67,9 +67,10 @@ a{
 }
 
 .debug .row{
-    border: 1px;
-    border-style: dashed;
+    /* border: 1px;
+    border-style: dashed; */
     padding: 20px;
+    height: 400px;
 }
 
 .debug .row>*{
@@ -90,10 +91,37 @@ a{
     align-self: center;
     justify-content: center;
     background-color: rgb(219, 92, 198);
-    width: 450px;
+    width: 700px;
     height: 250px;
 	margin: 0 auto;
 }
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+
+.row{
+    display: flex;
+    background-color: white;
+    width: 900px;
+    justify-content: center;
+}
+
+.col60{
+    background-color: rgb(94, 141, 230);
+    width: 60%;
+}
+
+.col40{
+    background-color: pink;
+    width: 40%;
+}
+
+
+
 
 
 
