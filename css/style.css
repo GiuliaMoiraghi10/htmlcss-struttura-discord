@@ -101,11 +101,11 @@ a{
   justify-content: center;
   align-items: center;
   padding: 30px;
+  background-color: white;
 }
 
 .row{
     display: flex;
-    background-color: white;
     width: 900px;
     justify-content: center;
 }
@@ -118,6 +118,10 @@ a{
 .col40{
     background-color: pink;
     width: 40%;
+}
+
+.container-grey{
+  background-color: rgb(194, 196, 199);
 }
 
 
