@@ -126,15 +126,15 @@ a{
   background-color: rgb(194, 196, 199);
 }
 
-.col100{
+/* .col100{
     background-color: rgb(68, 190, 12);
     width: 100%;
 }
 
 .container-green{
     background-color: rgb(194, 196, 199);
-    height: 800px;;
-}
+    height: 800px;
+} */
 
 .container-darkgrey{
     background-color: rgb(66, 66, 70);
@@ -152,8 +152,37 @@ a{
     height: auto;
 }
 
+.big-green{
+    background-color: rgb(194, 196, 199);
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.img-green{
+    background-color: rgb(68, 190, 12);
+    width: 850px;
+    height: 700px;
+    border: 1px;
+    border-style: dashed;
+}
 
+/* FOOTER */
+
+.footer-flex{
+    
+}
+
+.footbar{
+    display: flex;
+	align-items: center;
+	justify-content: space-between;
+    padding: 0 20px;
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: rgb(69, 235, 185);
+}
 
 
 
