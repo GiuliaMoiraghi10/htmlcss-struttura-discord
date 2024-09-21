@@ -147,7 +147,7 @@ a{
 }
 
 .col1-6{
-    background-color: rgb(107, 231, 194);
+    background-color: rgb(41, 175, 135);
     width: calc(100%/4);
     height: auto;
 }
@@ -171,17 +171,25 @@ a{
 /* FOOTER */
 
 .footer-flex{
-    
+    height: 50px;
+    background-color: rgb(66, 66, 70);
 }
 
 .footbar{
     display: flex;
 	align-items: center;
 	justify-content: space-between;
-    padding: 0 20px;
-    max-width: 900px;
+    padding: 20px 0;
+    max-width: 850px;
+    height: 30px;
     margin: 0 auto;
-    background-color: rgb(69, 235, 185);
+    background-color: rgb(162, 248, 222);
+}
+
+.foot-elements{
+    border: 1px;
+    border-style: dashed;
+    background-color: pink;
 }
 
 
