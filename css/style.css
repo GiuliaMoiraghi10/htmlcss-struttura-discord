@@ -113,15 +113,43 @@ a{
 .col60{
     background-color: rgb(94, 141, 230);
     width: 60%;
+    height: auto;
 }
 
 .col40{
     background-color: pink;
     width: 40%;
+    height: auto;
 }
 
 .container-grey{
   background-color: rgb(194, 196, 199);
+}
+
+.col100{
+    background-color: rgb(68, 190, 12);
+    width: 100%;
+}
+
+.container-green{
+    background-color: rgb(194, 196, 199);
+    height: 800px;;
+}
+
+.container-darkgrey{
+    background-color: rgb(66, 66, 70);
+}
+
+.col2-6{
+    background-color: rgb(226, 143, 178);
+    width: calc(100%/3);
+    height: auto;
+}
+
+.col1-6{
+    background-color: rgb(107, 231, 194);
+    width: calc(100%/4);
+    height: auto;
 }
 
 
